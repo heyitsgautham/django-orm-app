@@ -8,7 +8,7 @@ To develop a Django application to store and retrieve data from a database using
 Include your ER diagram here
 
 ## Procedure
-1. Creating Repository:
+1. **Creating Repository:**
     - First, a path to make a folder where git needs to be created is identified.
     - Fork the repository https://github/gowriganeshns/django-orm-app
     - Clone the repository
@@ -18,18 +18,23 @@ Include your ER diagram here
     - After cloning the folder with the repository name django-orm-app will be created
 
    
-2. Inside django-orm-app:
-       - Write the following commands
+2. **Inside django-orm-app:**
+
+      - Write the following commands
+        
       ```
       cd django-orm-app
       ```
+      
       ```
       django-admin startproj myproj
       ```
+      
       - Then move into the folder myproj where manage.py file is located. Now give the commands to create myapp
       ```
       python3 manage.py startapp myapp
       ```
+      
       - Then change the necessary settings in the settings.py.
       ```
       from pathlib import Path
