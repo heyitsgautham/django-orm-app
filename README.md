@@ -54,6 +54,7 @@ Include your ER diagram here
         'myapp'
        ]
       ```
+      
       ```
       STATICFILES_DIR=[
         os.path.join(BASE_DIR,'static')
@@ -62,7 +63,7 @@ Include your ER diagram here
 
       
   
-5. **Create a Super User:**
+3. **Create a Super User:**
    
        ```
        python3 manage.py makemigrations
@@ -74,11 +75,18 @@ Include your ER diagram here
       - Visit the admin app at (http://127.0.0.1:8000/admin) and log in with the superuser account that you have created:
 
 
-6. **Write the code:**
-       
+4. **Write the code:**
+       - Write the given codes in models.py and admin.py
    
 
-8. Verification:
+5. **Run the code:**
+        - Make migrations
+        ```
+           python3 manage.py makemigrations myapp
+           python3 manage.py migrate myapp
+        ```
+        - In the admin interface (http://127.0.0.1:8000/admin) following web interface will be obtained.
+        - Now add 10 employee details having only 5 post.
 
 ## PROGRAM
 
@@ -117,8 +125,7 @@ admin.site.register(Employee,EmployeeAdmin)
 ```
 
 ## OUTPUT
+![Screenshot from 2023-10-31 10-53-00](https://github.com/Nijeesh-bit/django-orm-app/assets/89188014/a04ba1f6-a89f-4574-b665-f472eb9d5a61)
 
-Include the screenshot of your admin page.
-![Alt text](<Screenshot from 2023-10-31 10-40-19.png>)
 
 ## RESULT
