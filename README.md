@@ -10,7 +10,7 @@ Include your ER diagram here
 ## Procedure
 1. **Creating Repository:**
     - First, a path to make a folder where git needs to be created is identified.
-    - Fork the repository https://github/gowriganeshns/django-orm-app
+    - Fork the repository (https://github/gowriganeshns/django-orm-app)
     - Clone the repository
       ```
       git clone https://github.com/Nijeesh-bit/django-orm-app
@@ -62,13 +62,23 @@ Include your ER diagram here
 
       
   
-5. Compile the Project:
+5. **Create a Super User:**
+   
+       ```
+       python3 manage.py makemigrations
+       python3 manage.py migrate
+       python3 manage.py createsuperuser
+       ```
+      - Enter the admin and password according to your preferences.
+      - You will receive the command Superuser successfully created.
+      - Visit the admin app at (http://127.0.0.1:8000/admin) and log in with the superuser account that you have created:
+
+
+6. **Write the code:**
+       
    
 
-6. Analyze and Fix Errors: 
-   
-
-7. Verification:
+8. Verification:
 
 ## PROGRAM
 
