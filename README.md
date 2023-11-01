@@ -83,7 +83,7 @@ To develop a Django application to store and retrieve data from a database using
 5. **Run the code:**
         - Make migrations
         ```
-           python3 manage.py makemigrations myapp
+           python3 manage.py makemigrations myapp  
            python3 manage.py migrate myapp
         ```
         - In the admin interface (http://127.0.0.1:8000/admin) following web interface will be obtained.
